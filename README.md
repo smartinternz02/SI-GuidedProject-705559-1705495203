@@ -2,7 +2,6 @@
 
 This is a virtual internship program in Software Automation Testing By Katalon.
 
-<br>
 
 ## KEY TAKE-AWAYS 🔐
   1.  Introduction to Software Testing

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Books, art collectibles</name>
+   <tag></tag>
+   <elementGuidId>a0c27d23-086b-431e-8aa1-d822c01b9267</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/table/tbody/tr/td[7]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0b6fbec6-e1e5-405d-ac70-f41892cbf9d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>abff5f9b-a532-4af1-b454-eb7a6755b28e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Books, art&amp; collectibles</value>
+      <webElementGuid>d911d941-3787-48be-9be2-09b81d21361b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/table[@class=&quot;navFooterMoreOnAmazon&quot;]/tbody[1]/tr[1]/td[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>e352d69e-1a66-48f6-a6d5-037bd43b0921</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/table/tbody/tr/td[7]/a/span</value>
+      <webElementGuid>7a1efd27-d6d7-4234-8bab-1727a00f34fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/a/span</value>
+      <webElementGuid>2fe6f543-22fa-44a8-be51-2045fe023571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Books, art&amp; collectibles' or . = 'Books, art&amp; collectibles')]</value>
+      <webElementGuid>e44399c2-2555-4152-b4ae-81258d41674f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

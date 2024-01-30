@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case to validate Footer Links present on the AUT AMAZON</description>
+   <name>TC_AMAZON_ValidateFooterLink_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d69aa65e-7148-47a2-bf68-1713445fe8e4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AmazonCategory_CSV_DDT_002,Chrome 121.0.0.0,,,31-01-2024 23:42:42,31-01-2024 23:43:51,1m - 9.342s,PASSED
+,,,,,,,
+Test Cases/007_TC_AMAZON_ValidationAmazonCategory_DDTCSV,Chrome 121.0.0.0,Test Case to validate the AUT-AMAZON for seach field.,,31-01-2024 23:42:42,31-01-2024 23:43:14,31.916s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 23:42:42,31-01-2024 23:42:44,1.937s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 23:42:44,31-01-2024 23:42:46,1.464s,PASSED
+"selectOptionByLabel(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/All Departments""), category, false)",Chrome 121.0.0.0,,,31-01-2024 23:42:46,31-01-2024 23:43:00,14.286s,PASSED
+"setText(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/input_Search_field""), item)",Chrome 121.0.0.0,,,31-01-2024 23:43:00,31-01-2024 23:43:02,2.054s,PASSED
+"click(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/Search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 23:43:02,31-01-2024 23:43:13,11.572s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 23:43:14,31-01-2024 23:43:14,0.290s,PASSED
+,,,,,,,
+Test Cases/007_TC_AMAZON_ValidationAmazonCategory_DDTCSV,Chrome 121.0.0.0,Test Case to validate the AUT-AMAZON for seach field.,,31-01-2024 23:43:14,31-01-2024 23:43:51,37.096s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 23:43:14,31-01-2024 23:43:15,0.833s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 23:43:15,31-01-2024 23:43:17,2.262s,PASSED
+"selectOptionByLabel(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/All Departments""), category, false)",Chrome 121.0.0.0,,,31-01-2024 23:43:17,31-01-2024 23:43:38,21.082s,PASSED
+"setText(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/input_Search_field""), item)",Chrome 121.0.0.0,,,31-01-2024 23:43:38,31-01-2024 23:43:40,2.034s,PASSED
+"click(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/Search-submit-button""))",Chrome 121.0.0.0,,,31-01-2024 23:43:40,31-01-2024 23:43:51,10.635s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,31-01-2024 23:43:51,31-01-2024 23:43:51,0.213s,PASSED

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case to validate the option/feature of wish list on the AUT-AMAZON.</description>
-   <name>TC_AMAZON_ValidateWishListItems_003</name>
+   <name>003_TC_AMAZON_ValidateWishListItems</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>beb6abae-2a7f-4cf6-ab6b-282566027fa1</testCaseGuid>

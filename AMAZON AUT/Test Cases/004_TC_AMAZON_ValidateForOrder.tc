@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case to validate the Amazon AUT for Order.</description>
-   <name>TC_AMAZON_ValidateForOrder_004</name>
+   <name>004_TC_AMAZON_ValidateForOrder</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9a656248-1c64-4b76-a741-84f068cb1a4c</testCaseGuid>

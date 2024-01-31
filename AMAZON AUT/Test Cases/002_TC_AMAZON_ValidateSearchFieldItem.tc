@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Test Case to validate the AUT-AMAZON for seach field.</description>
-   <name>TC_AMAZON_ValidateSearchFieldItem_002</name>
+   <name>002_TC_AMAZON_ValidateSearchFieldItem</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8b4a8557-477f-4fcc-9734-fe7702860f60</testCaseGuid>

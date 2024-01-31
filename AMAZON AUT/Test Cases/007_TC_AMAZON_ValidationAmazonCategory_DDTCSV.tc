@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case to validate the AUT-AMAZON for seach field.</description>
+   <name>007_TC_AMAZON_ValidationAmazonCategory_DDTCSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>056b8c8c-fce2-4070-8fbf-b46a7c781afd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b587c20d-ccf0-4a07-996c-bbcc81788618</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99a59c10-3462-4a51-bb93-0746cd57a2d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b587c20d-ccf0-4a07-996c-bbcc81788618</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99a59c10-3462-4a51-bb93-0746cd57a2d6</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

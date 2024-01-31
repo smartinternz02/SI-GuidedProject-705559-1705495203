@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/All Departments",
+      "brokenLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select[@id\u003d\u0027searchDropdownBox\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/All Departments_attributes.png"
+    }
+  ]
 }

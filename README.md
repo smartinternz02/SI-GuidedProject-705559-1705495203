@@ -14,7 +14,11 @@ This is a virtual internship program repository in Software Automation Testing B
 
 #### PROBLEM UNDERSTANDING DOCUMENT 📄
 
-- _[PROBLEM UNDERSTANDING DOCUMENT G-DRIVE](https://drive.google.com/drive/folders/1KdJjilDQbJK1HB8U3Pe_6vCZ4EocdHMO?usp=sharing)_
+- _[PROBLEM UNDERSTANDING DOCUMENTS G-DRIVE](https://drive.google.com/drive/folders/1KdJjilDQbJK1HB8U3Pe_6vCZ4EocdHMO?usp=sharing)_
+
+#### TEST REPORTS 📄
+
+- _[AMAZON TEST REPORT DOCUMENTS G-DRIVE](https://drive.google.com/drive/folders/1G38lUwGnwVe1TR4br5NK0ISuO1-uH9xF?usp=sharing)_
 
 #### NOTES 📝
 

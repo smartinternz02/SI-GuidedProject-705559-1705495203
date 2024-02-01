@@ -19,15 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.AUT_URL)
-
-WebUI.setText(findTestObject('AMAZON_ValidationOfButton_OR/input_field-keywords'), item)
-
-WebUI.click(findTestObject('AMAZON_ValidationOfButton_OR/inputnav-search-submit-button'))
-
-WebUI.click(findTestObject('AMAZON_ValidationOfButton_OR/img_s-image'))
-
-WebUI.switchToWindowTitle('Hauser XO 0.6mm Ball Pen Box Pack | Sleek Body & Minimalistic Design | Matt Finish & Solid Body Type | Low Viscosity Ink With Ultra Durable Tip | Blue Ink, Pack of 10 Pens : Amazon.in: Office Products')
+WebUI.navigateToUrl('https://www.amazon.in/Hauser-Comfortable-Smudge-Writing-Refillable/dp/B0B6Q92HGV/ref=sr_1_4?crid=2W6ZM100QX20Y&keywords=pens&qid=1706803638&s=office&sprefix=pens%2Coffice-products%2C358&sr=1-4&th=1')
 
 WebUI.selectOptionByValue(findTestObject('AMAZON_ValidationOfButton_OR/select_1        2        3        4        _45ea30'), 
     Qty, true)

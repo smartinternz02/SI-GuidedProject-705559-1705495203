@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FooterLinkValidation,,,,01-02-2024 22:34:55,01-02-2024 22:34:58,3.035s,FAILED
+,,,,,,,
+Test Cases/005_TC_AMAZON_ValidateFooterLink,,Test Case to validate Footer Links present on the AUT AMAZON,,01-02-2024 22:34:56,01-02-2024 22:34:58,2.816s,FAILED
+"openBrowser("""")",,,,01-02-2024 22:34:56,01-02-2024 22:34:58,2.505s,FAILED

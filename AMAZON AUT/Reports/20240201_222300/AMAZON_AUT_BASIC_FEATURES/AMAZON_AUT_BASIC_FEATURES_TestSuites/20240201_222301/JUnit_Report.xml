@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AMAZON_AUT_BASIC_FEATURES_TestSuites" time="256.976" tests="4" failures="0" errors="0">
+   <testsuite name="AMAZON_AUT_BASIC_FEATURES_TestSuites" tests="4" failures="0" errors="0" time="256.976" skipped="0" timestamp="01-02-2024T22:23:06" hostname="avina - 10.1.195.80" id="Test Suites/AMAZON_AUT_BASIC_FEATURES/AMAZON_AUT_BASIC_FEATURES_TestSuites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240201_222300\\AMAZON_AUT_BASIC_FEATURES\\AMAZON_AUT_BASIC_FEATURES_TestSuites\\20240201_222301"/>
+         <property name="logFiles" value="C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240201_222300\\AMAZON_AUT_BASIC_FEATURES\\AMAZON_AUT_BASIC_FEATURES_TestSuites\\20240201_222301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="avina - 10.1.195.80"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.1.195.80"/>
+         <property name="sessionId" value="87db5289fb833bd0c081710866c80c98"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/002_TC_AMAZON_ValidateSearchFieldItem" time="59.712" classname="Test Cases/002_TC_AMAZON_ValidateSearchFieldItem" status="PASSED">
+         <system-out><![CDATA[01-02-2024T22:23:06 - [TEST_CASE][PASSED] - Test Cases/002_TC_AMAZON_ValidateSearchFieldItem: Test Cases/002_TC_AMAZON_ValidateSearchFieldItem
+
+01-02-2024T22:23:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T22:23:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T22:23:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T22:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T22:23:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:23:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:23:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:23:49 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Ikigai"): Text 'Ikigai' is set on object 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:23:51 - [MESSAGE][PASSED] - Text 'Ikigai' is set on object 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:24:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T22:24:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/003_TC_AMAZON_ValidateWishListItems" time="57.844" classname="Test Cases/003_TC_AMAZON_ValidateWishListItems" status="PASSED">
+         <system-out><![CDATA[01-02-2024T22:24:06 - [TEST_CASE][PASSED] - Test Cases/003_TC_AMAZON_ValidateWishListItems: Test Cases/003_TC_AMAZON_ValidateWishListItems
+
+01-02-2024T22:24:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T22:24:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T22:24:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T22:24:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T22:24:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:24:09 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:24:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:24:24 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Atomic Habit"): Text 'Atomic Habit' is set on object 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:24:25 - [MESSAGE][PASSED] - Text 'Atomic Habit' is set on object 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com  Atomic Habit/span_Atomic Habits An Easy  Proven Way to B_dfd55a")): Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com  Atomic Habit/span_Atomic Habits An Easy  Proven Way to B_dfd55a' is clicked on
+
+01-02-2024T22:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com  Atomic Habit/span_Atomic Habits An Easy  Proven Way to B_dfd55a' is clicked on
+
+01-02-2024T22:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com Atomic Habits An Easy  Prov_f273e8/span_Add to List")): Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com Atomic Habits An Easy  Prov_f273e8/span_Add to List' is clicked on
+
+01-02-2024T22:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com Atomic Habits An Easy  Prov_f273e8/span_Add to List' is clicked on
+
+01-02-2024T22:25:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T22:25:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/004_TC_AMAZON_ValidateForOrder" time="86.206" classname="Test Cases/004_TC_AMAZON_ValidateForOrder" status="PASSED">
+         <system-out><![CDATA[01-02-2024T22:25:04 - [TEST_CASE][PASSED] - Test Cases/004_TC_AMAZON_ValidateForOrder: Test Cases/004_TC_AMAZON_ValidateForOrder
+
+01-02-2024T22:25:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T22:25:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T22:25:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T22:25:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T22:25:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:25:07 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:25:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:25:25 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+01-02-2024T22:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code book"): Text 'da vinci code book' is set on object 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:25:27 - [MESSAGE][PASSED] - Text 'da vinci code book' is set on object 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+01-02-2024T22:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+01-02-2024T22:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com  da vinci code book/span_The Da Vinci Code A Novel (Robert Langdon)")): Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com  da vinci code book/span_The Da Vinci Code A Novel (Robert Langdon)' is clicked on
+
+01-02-2024T22:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com  da vinci code book/span_The Da Vinci Code A Novel (Robert Langdon)' is clicked on
+
+01-02-2024T22:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateOrder_OR/Page_The Da Vinci Code A Novel (Robert Lang_f51707/input_submit.one-click-order.x")): Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_The Da Vinci Code A Novel (Robert Lang_f51707/input_submit.one-click-order.x' is clicked on
+
+01-02-2024T22:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateOrder_OR/Page_The Da Vinci Code A Novel (Robert Lang_f51707/input_submit.one-click-order.x' is clicked on
+
+01-02-2024T22:26:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T22:26:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/005_TC_AMAZON_ValidateFooterLink" time="52.957" classname="Test Cases/005_TC_AMAZON_ValidateFooterLink" status="PASSED">
+         <system-out><![CDATA[01-02-2024T22:26:30 - [TEST_CASE][PASSED] - Test Cases/005_TC_AMAZON_ValidateFooterLink: Test Cases/005_TC_AMAZON_ValidateFooterLink
+
+01-02-2024T22:26:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T22:26:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T22:26:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T22:26:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T22:26:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:26:35 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+01-02-2024T22:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateFooterLinks/Page_Amazon.com. Spend less. Smile more/span_Books, art collectibles")): Object: 'Object Repository/AMAZON_ValidateFooterLinks/Page_Amazon.com. Spend less. Smile more/span_Books, art collectibles' is clicked on
+
+01-02-2024T22:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateFooterLinks/Page_Amazon.com. Spend less. Smile more/span_Books, art collectibles' is clicked on
+
+01-02-2024T22:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/input_kn"), "harry potter"): Text 'harry potter' is set on object 'Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/input_kn'
+
+01-02-2024T22:27:15 - [MESSAGE][PASSED] - Text 'harry potter' is set on object 'Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/input_kn'
+
+01-02-2024T22:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/button_Search")): Object: 'Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/button_Search' is clicked on
+
+01-02-2024T22:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/button_Search' is clicked on
+
+01-02-2024T22:27:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T22:27:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T22:23:06 - [TEST_SUITE][PASSED] - AMAZON_AUT_BASIC_FEATURES_TestSuites: Test Cases/005_TC_AMAZON_ValidateFooterLink]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

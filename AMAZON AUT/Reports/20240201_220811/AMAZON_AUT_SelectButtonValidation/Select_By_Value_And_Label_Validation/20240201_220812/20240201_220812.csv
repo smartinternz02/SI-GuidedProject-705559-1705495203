@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Select_By_Value_And_Label_Validation,Chrome 121.0.0.0,,,01-02-2024 22:08:17,01-02-2024 22:13:53,5m - 36.075s,PASSED
+,,,,,,,
+Test Cases/009_TC_AMAZON_ValidateSelectByLabelButton,Chrome 121.0.0.0,,,01-02-2024 22:08:18,01-02-2024 22:10:08,1m - 50.564s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:08:18,01-02-2024 22:08:21,2.502s,PASSED
+navigateToUrl(AUT_URL),Chrome 121.0.0.0,,,01-02-2024 22:08:21,01-02-2024 22:08:24,3.136s,PASSED
+"selectOptionByLabel(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/All Departments""), category, false)",Chrome 121.0.0.0,,,01-02-2024 22:08:24,01-02-2024 22:09:35,1m - 10.995s,PASSED
+"setText(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/input_Search_field""), item)",Chrome 121.0.0.0,,,01-02-2024 22:09:35,01-02-2024 22:10:00,25.524s,PASSED
+"click(findTestObject(""AMAZON_CategoryValidationDDT_OR/Page_Amazon.com. Spend less. Smile more/Search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 22:10:00,01-02-2024 22:10:08,7.586s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:10:08,01-02-2024 22:10:08,0.326s,PASSED
+,,,,,,,
+Test Cases/010_TC_AMAZON_ValidateSelectByValueButton,Chrome 121.0.0.0,,,01-02-2024 22:10:08,01-02-2024 22:13:53,3m - 45.221s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:10:08,01-02-2024 22:10:09,0.856s,PASSED
+"navigateToUrl(""https://www.amazon.in/Hauser-Comfortable-Smudge-Writing-Refillable/dp/B0B6Q92HGV/ref=sr_1_4?crid=2W6ZM100QX20Y&keywords=pens&qid=1706803638&s=office&sprefix=pens%2Coffice-products%2C358&sr=1-4&th=1"")",Chrome 121.0.0.0,,,01-02-2024 22:10:09,01-02-2024 22:10:14,5.065s,PASSED
+"selectOptionByValue(findTestObject(""AMAZON_ValidationOfButton_OR/select_1        2        3        4        _45ea30""), Qty, true)",Chrome 121.0.0.0,,,01-02-2024 22:10:14,01-02-2024 22:13:48,3m - 33.805s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-02-2024 22:13:48,01-02-2024 22:13:53,5.048s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:13:53,01-02-2024 22:13:53,0.257s,PASSED

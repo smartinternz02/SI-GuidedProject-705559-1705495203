@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SearchFieldItems,Chrome 121.0.0.0,,,01-02-2024 22:33:17,01-02-2024 22:34:51,1m - 34.093s,PASSED
+,,,,,,,
+Test Cases/002_TC_AMAZON_ValidateSearchFieldItem,Chrome 121.0.0.0,Test Case to validate the AUT-AMAZON for seach field.,,01-02-2024 22:33:17,01-02-2024 22:34:51,1m - 33.861s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:33:17,01-02-2024 22:33:19,2.052s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,01-02-2024 22:33:19,01-02-2024 22:33:22,2.578s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,01-02-2024 22:33:22,01-02-2024 22:34:24,1m - 2.067s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Ikigai"")",Chrome 121.0.0.0,,,01-02-2024 22:34:24,01-02-2024 22:34:25,1.166s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 22:34:25,01-02-2024 22:34:50,25.466s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:34:50,01-02-2024 22:34:51,0.229s,PASSED

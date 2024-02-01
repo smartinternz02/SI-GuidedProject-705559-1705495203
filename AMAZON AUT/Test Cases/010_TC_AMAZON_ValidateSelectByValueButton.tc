@@ -25,7 +25,7 @@
       <name>item</name>
    </variable>
    <variable>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>'5'</defaultValue>
       <description></description>
       <id>5f0664fb-00a4-4321-a941-64931dae261f</id>
       <masked>false</masked>

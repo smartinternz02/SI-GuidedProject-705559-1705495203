@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AMAZON_AUT_BASIC_FEATURES_TestSuites,Chrome 121.0.0.0,,,01-02-2024 22:23:06,01-02-2024 22:27:23,4m - 16.976s,PASSED
+,,,,,,,
+Test Cases/002_TC_AMAZON_ValidateSearchFieldItem,Chrome 121.0.0.0,Test Case to validate the AUT-AMAZON for seach field.,,01-02-2024 22:23:06,01-02-2024 22:24:06,59.712s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:23:07,01-02-2024 22:23:09,1.964s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,01-02-2024 22:23:09,01-02-2024 22:23:12,3.344s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,01-02-2024 22:23:12,01-02-2024 22:23:49,37.535s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Ikigai"")",Chrome 121.0.0.0,,,01-02-2024 22:23:49,01-02-2024 22:23:51,1.840s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateSearchFiledItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 22:23:51,01-02-2024 22:24:06,14.464s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:24:06,01-02-2024 22:24:06,0.249s,PASSED
+,,,,,,,
+Test Cases/003_TC_AMAZON_ValidateWishListItems,Chrome 121.0.0.0,Test Case to validate the option/feature of wish list on the AUT-AMAZON.,,01-02-2024 22:24:06,01-02-2024 22:25:04,57.844s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:24:06,01-02-2024 22:24:07,0.778s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,01-02-2024 22:24:07,01-02-2024 22:24:09,2.088s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,01-02-2024 22:24:09,01-02-2024 22:24:24,14.643s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Atomic Habit"")",Chrome 121.0.0.0,,,01-02-2024 22:24:24,01-02-2024 22:24:25,1.599s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 22:24:25,01-02-2024 22:24:45,19.689s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com  Atomic Habit/span_Atomic Habits An Easy  Proven Way to B_dfd55a""))",Chrome 121.0.0.0,,,01-02-2024 22:24:45,01-02-2024 22:24:55,10.036s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateWishListItems_OR/Page_Amazon.com Atomic Habits An Easy  Prov_f273e8/span_Add to List""))",Chrome 121.0.0.0,,,01-02-2024 22:24:55,01-02-2024 22:25:04,8.657s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:25:04,01-02-2024 22:25:04,0.232s,PASSED
+,,,,,,,
+Test Cases/004_TC_AMAZON_ValidateForOrder,Chrome 121.0.0.0,Test Case to validate the Amazon AUT for Order.,,01-02-2024 22:25:04,01-02-2024 22:26:30,1m - 26.206s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:25:04,01-02-2024 22:25:05,0.813s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,01-02-2024 22:25:05,01-02-2024 22:25:07,1.898s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,01-02-2024 22:25:07,01-02-2024 22:25:25,18.580s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code book"")",Chrome 121.0.0.0,,,01-02-2024 22:25:25,01-02-2024 22:25:27,2.033s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,01-02-2024 22:25:27,01-02-2024 22:25:40,12.670s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateOrder_OR/Page_Amazon.com  da vinci code book/span_The Da Vinci Code A Novel (Robert Langdon)""))",Chrome 121.0.0.0,,,01-02-2024 22:25:40,01-02-2024 22:26:17,36.844s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateOrder_OR/Page_The Da Vinci Code A Novel (Robert Lang_f51707/input_submit.one-click-order.x""))",Chrome 121.0.0.0,,,01-02-2024 22:26:17,01-02-2024 22:26:30,13.026s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:26:30,01-02-2024 22:26:30,0.240s,PASSED
+,,,,,,,
+Test Cases/005_TC_AMAZON_ValidateFooterLink,Chrome 121.0.0.0,Test Case to validate Footer Links present on the AUT AMAZON,,01-02-2024 22:26:30,01-02-2024 22:27:23,52.957s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 22:26:30,01-02-2024 22:26:31,0.829s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,01-02-2024 22:26:31,01-02-2024 22:26:35,3.685s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateFooterLinks/Page_Amazon.com. Spend less. Smile more/span_Books, art collectibles""))",Chrome 121.0.0.0,,,01-02-2024 22:26:35,01-02-2024 22:27:14,38.935s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/input_kn""), ""harry potter"")",Chrome 121.0.0.0,,,01-02-2024 22:27:14,01-02-2024 22:27:15,1.348s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateFooterLinks/Page_AbeBooks  Shop for Books, Art  Collectibles/button_Search""))",Chrome 121.0.0.0,,,01-02-2024 22:27:15,01-02-2024 22:27:23,7.857s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 22:27:23,01-02-2024 22:27:23,0.199s,PASSED

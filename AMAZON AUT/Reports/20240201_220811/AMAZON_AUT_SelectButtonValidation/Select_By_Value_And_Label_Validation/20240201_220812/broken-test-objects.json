@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AMAZON_ValidationOfButton_OR/select_1        2        3        4        _45ea30",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240201_220811/AMAZON_AUT_SelectButtonValidation/Select_By_Value_And_Label_Validation/20240201_220812/Object Repository/AMAZON_ValidationOfButton_OR/select_1        2        3        4        _45ea30_attributes.png"
+    }
+  ]
+}

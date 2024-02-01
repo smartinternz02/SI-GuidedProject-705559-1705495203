@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_SelecyByValue_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3e1925c-327e-40a6-af34-722324c7741e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acc9462a-433c-4b4e-bd55-57372982cd21</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40fd23fb-22ce-4132-9786-a09a8f6e383c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b45c7df-7011-403d-8d88-8a7c78106516</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'pens'</defaultValue>
+      <description></description>
+      <id>acc9462a-433c-4b4e-bd55-57372982cd21</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>40fd23fb-22ce-4132-9786-a09a8f6e383c</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.amazon.in'</defaultValue>
+      <description></description>
+      <id>6b45c7df-7011-403d-8d88-8a7c78106516</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

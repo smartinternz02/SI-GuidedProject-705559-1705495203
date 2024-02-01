@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddToCart_TestListner,Chrome 121.0.0.0,A test Listner to validate add to card feature in AUT - AMAZON.,,02-02-2024 00:13:29,02-02-2024 00:16:30,3m - 0.623s,PASSED
+,,,,,,,
+Test Cases/011_TC_AMAZON_AddToCart_TestListner,Chrome 121.0.0.0,,,02-02-2024 00:13:30,02-02-2024 00:16:30,3m - 0.244s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 00:13:30,02-02-2024 00:14:37,1m - 7.654s,PASSED
+"setText(findTestObject(""Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""ikigai book"")",Chrome 121.0.0.0,,,02-02-2024 00:14:37,02-02-2024 00:15:22,44.670s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,02-02-2024 00:15:22,02-02-2024 00:15:51,28.650s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com  ikigai book/span_Ikigai The Japanese Secret to a Long a_7b4a50""))",Chrome 121.0.0.0,,,02-02-2024 00:15:51,02-02-2024 00:16:13,22.071s,PASSED
+"click(findTestObject(""Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com Ikigai The Japanese Secret _084d27/input_submit.add-to-cart""))",Chrome 121.0.0.0,,,02-02-2024 00:16:13,02-02-2024 00:16:29,16.442s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 00:16:29,02-02-2024 00:16:30,0.536s,PASSED

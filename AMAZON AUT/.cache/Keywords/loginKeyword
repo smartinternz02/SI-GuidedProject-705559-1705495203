@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "4FE011EB68F3E6FF6C4623358C2A0244",
+  "keywordClasses": [
+    {
+      "name": "newkeyword",
+      "keywordMethods": [
+        {
+          "name": "registration",
+          "parameters": [
+            {
+              "name": "msg",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

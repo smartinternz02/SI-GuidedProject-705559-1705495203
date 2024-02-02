@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case to validate the login to the AUT-Amazon and varifying it,</description>
+   <name>012_TC_AMAZON_LoginKeyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>082bcdde-8a81-42fa-a86a-95b51bbac471</testCaseGuid>
+</TestCaseEntity>

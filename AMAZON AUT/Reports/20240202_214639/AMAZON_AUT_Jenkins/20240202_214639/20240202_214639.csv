@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AMAZON_AUT_Jenkins,Chrome 121.0.0.0,,,02-02-2024 21:46:47,02-02-2024 21:47:32,45.390s,PASSED
+,,,,,,,
+Test Cases/012_TC_AMAZON_Jenkins,Chrome 121.0.0.0,,,02-02-2024 21:46:47,02-02-2024 21:47:32,44.984s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 21:46:47,02-02-2024 21:47:26,38.788s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 21:47:26,02-02-2024 21:47:27,1.372s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,02-02-2024 21:47:27,02-02-2024 21:47:32,4.381s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 21:47:32,02-02-2024 21:47:32,0.209s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 21:47:32,02-02-2024 21:47:32,0.013s,PASSED

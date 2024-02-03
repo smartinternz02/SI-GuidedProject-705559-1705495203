@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AMAZON_AUT_JenkinsIntegration,Chrome 121.0.0.0,,,04-02-2024 01:18:16,04-02-2024 01:19:02,46.372s,PASSED
+,,,,,,,
+Test Cases/012_TC_AMAZON_JenkinsIntegration,Chrome 121.0.0.0,,,04-02-2024 01:18:16,04-02-2024 01:19:02,46.081s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,04-02-2024 01:18:16,04-02-2024 01:18:58,41.447s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,04-02-2024 01:18:58,04-02-2024 01:18:59,1.508s,PASSED
+"navigateToUrl(""www.amazon.com"")",Chrome 121.0.0.0,,,04-02-2024 01:18:59,04-02-2024 01:19:02,2.754s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,04-02-2024 01:19:02,04-02-2024 01:19:02,0.229s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,04-02-2024 01:19:02,04-02-2024 01:19:02,0.011s,PASSED

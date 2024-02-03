@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AMAZON_AUT_JenkinsIntegration" time="46.372" tests="1" failures="0" errors="0">
+   <testsuite name="AMAZON_AUT_JenkinsIntegration" tests="1" failures="0" errors="0" time="46.372" skipped="0" timestamp="04-02-2024T01:18:16" hostname="avina - 10.1.164.140" id="Test Suites/AMAZON_AUT_JenkinsIntegration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240204_011651\\AMAZON_AUT_JenkinsIntegration\\20240204_011810"/>
+         <property name="logFiles" value="C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240204_011651\\AMAZON_AUT_JenkinsIntegration\\20240204_011810\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240204_011651\\AMAZON_AUT_JenkinsIntegration\\20240204_011810\\1706989737806.png"/>
+         <property name="hostName" value="avina - 10.1.164.140"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.1.164.140"/>
+         <property name="sessionId" value="47d34876e2d423f0829edec79897bba3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/012_TC_AMAZON_JenkinsIntegration" time="46.081" classname="Test Cases/012_TC_AMAZON_JenkinsIntegration" status="PASSED">
+         <system-out><![CDATA[04-02-2024T01:18:16 - [TEST_CASE][PASSED] - Test Cases/012_TC_AMAZON_JenkinsIntegration: Test Cases/012_TC_AMAZON_JenkinsIntegration
+
+04-02-2024T01:18:16 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at AMAZON_AddToCart.sampleBeforeTestCase(AMAZON_AddToCart.groovy:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706989690113.run(TempTestSuite1706989690113.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+
+
+04-02-2024T01:18:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2024T01:18:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2024T01:18:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2024T01:18:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2024T01:18:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+04-02-2024T01:18:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+04-02-2024T01:18:23 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at AMAZON_AddToCart.sampleBeforeTestCase(AMAZON_AddToCart.groovy:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706989690113.run(TempTestSuite1706989690113.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+
+
+04-02-2024T01:18:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='nav-link-accountList-nav-line-1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-02-2024T01:18:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'. Try using Self-healing.
+
+04-02-2024T01:18:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@id='nav-link-accountList-nav-line-1']'.
+
+04-02-2024T01:18:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='nav-link-accountList']/div/span'.
+
+04-02-2024T01:18:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[2]/div/span'.
+
+04-02-2024T01:18:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[@id = 'nav-link-accountList-nav-line-1' and (text() = 'Hello, sign in' or . = 'Hello, sign in')]'.
+
+04-02-2024T01:18:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'nav-link-accountList-nav-line-1' and (text() = 'Hello, sign in' or . = 'Hello, sign in')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-02-2024T01:18:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #nav-link-accountList-nav-line-1'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-02-2024T01:18:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at AMAZON_AddToCart.sampleBeforeTestCase(AMAZON_AddToCart.groovy:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706989690113.run(TempTestSuite1706989690113.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|C:\\Users\\avina\\git\\SI-GuidedProject-705559-1705495203\\AMAZON AUT\\Reports\\20240204_011651\\AMAZON_AUT_JenkinsIntegration\\20240204_011810\\1706989737806.png]]
+
+04-02-2024T01:18:58 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at AMAZON_AddToCart.sampleBeforeTestCase(AMAZON_AddToCart.groovy:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706989690113.run(TempTestSuite1706989690113.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AMAZON_ValidateAddToCart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+
+
+04-02-2024T01:18:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2024T01:18:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-02-2024T01:18:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2024T01:18:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2024T01:18:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2024T01:18:59 - [TEST_STEP][PASSED] - navigateToUrl("www.amazon.com"): Navigate to 'http://www.amazon.com' successfully
+
+04-02-2024T01:19:02 - [MESSAGE][PASSED] - Navigate to 'http://www.amazon.com' successfully
+
+04-02-2024T01:19:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2024T01:19:02 - [MESSAGE][PASSED] - Browser is closed
+
+04-02-2024T01:19:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+04-02-2024T01:19:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2024T01:19:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-02-2024T01:18:16 - [TEST_SUITE][PASSED] - AMAZON_AUT_JenkinsIntegration: Test Cases/012_TC_AMAZON_JenkinsIntegration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

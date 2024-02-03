@@ -37,8 +37,6 @@ This is a virtual internship program repository in Software Automation Testing B
 
 </details>
 
-<br>
-
 <details>
   <summary>Click To Open DELIVERABLES Folder layout</summary>
   
@@ -85,8 +83,6 @@ This is a virtual internship program repository in Software Automation Testing B
 8.  Katalon Studio Extensions and Integrations
 9.  Katalon Studio Reporting and Analysis
 10. End-to-End Use case
-
-<br>
 
 # THANK YOU FOR VISITING 💝
 

@@ -2,38 +2,38 @@
 
 This is a virtual internship program repository in Software Automation Testing By Katalon.
 
-# Repository Structure Conventions:
+## Repository Structure Conventions:
 
 > Folder structure and naming conventions for software automation testing project.
 
 ### A top-level directory layout:
 
-    .
-    ├── AMAZON AUT          # Amazon Testing Katalon Main Folder
-    ├── DELIVERABLES        # Reports And Required Docs For Testing
-    ├── README.md
-    └── LICENSE
+      .
+      ├── AMAZON AUT          # Amazon Testing Katalon Main Folder
+      ├── DELIVERABLES        # Reports And Required Docs For Testing
+      ├── README.md
+      └── LICENSE
 
 <details>
   <summary>Click To Open AMAZON AUT Folder layout</summary>
   
-    .
-    ├── .cache/Keywords
-    ├── Data Files
-    ├── Include/config
-    ├── Keywords
-    ├── Object Repository
-    ├── Profiles
-    ├── Reports
-    ├── Screenshots
-    ├── Scripts
-    ├── Test Cases
-    ├── Test Listeners
-    ├── settings
-    ├── .gitignore
-    ├── .project
-    ├── SI-GuidedProject-705559-1705495203.prj
-    └── console.properties
+        .
+        ├── .cache/Keywords
+        ├── Data Files
+        ├── Include/config
+        ├── Keywords
+        ├── Object Repository
+        ├── Profiles
+        ├── Reports
+        ├── Screenshots
+        ├── Scripts
+        ├── Test Cases
+        ├── Test Listeners
+        ├── settings
+        ├── .gitignore
+        ├── .project
+        ├── SI-GuidedProject-705559-1705495203.prj
+        └── console.properties
 
 </details>
 
@@ -42,12 +42,12 @@ This is a virtual internship program repository in Software Automation Testing B
 <details>
   <summary>Click To Open DELIVERABLES Folder layout</summary>
   
-    .
-    ├── 001_TEST PLAN
-    ├── 002_TEST CASE SCENARIO
-    ├── 003_PROBLEM UNDERSTANDING DOCUMENTS
-    ├── 004_DATA FILES
-    └── 005_REPORTS
+        .
+        ├── 001_TEST PLAN
+        ├── 002_TEST CASE SCENARIO
+        ├── 003_PROBLEM UNDERSTANDING DOCUMENTS
+        ├── 004_DATA FILES
+        └── 005_REPORTS
 
 </details>
 

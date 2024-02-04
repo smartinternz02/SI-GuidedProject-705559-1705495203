@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>012_TC_AMAZON_JenkinsIntegration</name>
+   <name>013_TC_AMAZON_JenkinsIntegration</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5baff454-ba8c-49d9-87b8-71054b54edbd</testCaseGuid>

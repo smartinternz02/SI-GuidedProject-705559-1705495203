@@ -4,4 +4,19 @@
    <name>UserInfo</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>AUT website Link</description>
+      <initValue>'www.amazon.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Avinash Yadav'</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>User Login Details</description>
+      <initValue>9317171704</initValue>
+      <name>Mobile_Number</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

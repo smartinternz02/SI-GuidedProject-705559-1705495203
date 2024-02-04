@@ -15,7 +15,7 @@
       <guid>5ec0ea78-e12f-433a-a015-4e3dc3789e46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/012_TC_AMAZON_JenkinsIntegration</testCaseId>
+      <testCaseId>Test Cases/013_TC_AMAZON_JenkinsIntegration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
